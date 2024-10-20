@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/endereco.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Mystic</title>
+</head>
+
+<body>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+    <header class="cabecalho">
+
+        <section class="cabecalho-1">
+            
+          <figure class="image-box">
+            <a href="../index.html"><img class="cabecalho-logo" src="../assets/logo.png" alt="logo do site"></a>
+        </figure>
+
+            <h1 class="cabecalho-titulo">Mystic</h1>
+            
+            <!-- Teste Isac, Comentar as Linhas -->
+         
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="form-group left-inner-addon">
+                        <!--<i class="glyphicon glyphicon-calendar"></i>-->
+                        <i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg></i>
+                        
+                        <input type="text" class="form-control" placeholder="Buscar..">
+                    </div>
+                </div>
+            </div>
+
+            <!-- teste barra de pesquisa e carrinho juh -->
+            
+            <div class="cart">
+                <a href="login.html"><img src="../assets/login.png" alt="Carrinho de Compras" width="24" height="24" ></a>
+                <a href="../pages/carrinho.html"><img src="../assets/carrinho.png" alt="Carrinho de Compras" width="24" height="24"></a>
+            </div>
+        </section>
+        
+        <section class="cabecalho-2">
+            <nav class="nav-links">
+                <a class="links" href="">Cosplay</a>
+                <a class="links" href="acessorios.html">Acessórios</a>
+                <a class="links" href="masculino.html">Masculino</a>
+                <a class="links" href="feminino.html">Feminino</a>
+                <a class="links" href="promocao.html">Promoções</a>
+                <a class="links" href="cupom.html">Cupom</a>
+                <a class="links" href="">Ajuda</a>
+            </nav>
+        </section>
+
+
+
+
+
+    </header>
+
+    <main class="container-center">
+        <div class="container">
+            <h2 style="color:#ffffffd3;" class="sign-title">Dados de Entrega</h2>
+            <form action="#">
+
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" name="rua" required>
+
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" required>
+
+                <label for="numero">Número</label>
+                <input type="text" id="numero" name="numero" required>
+
+                <label for="place">Estado:</label>
+                <select class="op">
+                    <option class="op_indv" value="AC">Acre</option>
+                    <option class="op_indv"value="AL">Alagoas</option>
+                    <option class="op_indv"value="AP">Amapá</option>
+                    <option class="op_indv"value="AM">Amazonas</option>
+                    <option class="op_indv"value="BA">Bahia</option>
+                    <option class="op_indv"value="CE">Ceará</option>
+                    <option class="op_indv"value="DF">Distrito Federal</option>
+                    <option class="op_indv"value="ES">Espírito Santo</option>
+                    <option class="op_indv"value="GO">Goiás</option>
+                    <option class="op_indv"value="MA">Maranhão</option>
+                    <option class="op_indv"value="MT">Mato Grosso</option>
+                    <option class="op_indv"value="MS">Mato Grosso do Sul</option>
+                    <option class="op_indv"value="MG">Minas Gerais</option>
+                    <option class="op_indv"value="PA">Pará</option>
+                    <option class="op_indv"value="PB">Paraíba</option>
+                    <option class="op_indv"value="PR">Paraná</option>
+                    <option class="op_indv"value="PE">Pernambuco</option>
+                    <option class="op_indv"value="PI">Piauí</option>
+                    <option class="op_indv"value="RJ">Rio de Janeiro</option>
+                    <option class="op_indv"value="RN">Rio Grande do Norte</option>
+                    <option class="op_indv"value="RS">Rio Grande do Sul</option>
+                    <option class="op_indv"value="RO">Rondônia</option>
+                    <option class="op_indv"value="RR">Roraima</option>
+                    <option class="op_indv"value="SC">Santa Catarina</option>
+                    <option class="op_indv"value="SP">São Paulo</option>
+                    <option class="op_indv"value="SE">Sergipe</option>
+                    <option class="op_indv"value="TO">Tocantins</option>
+                </select>
+                <br>
+
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" required>
+
+                <label for="cidade">Cidade</label>
+                <input type="text" id="bairro" name=bairro" required>
+
+              
+                <button type="submit" style="color: #ffffffd3; border-radius: 40px; text-decoration: none;" >Cadastrar</button>
+                
+                <p>Já tem uma conta? <a href="login.html" class = "ooi">Login</a></p>
+            </form>
+        </div>
+    </main>
+    <br>
+    <footer class="footer">
+        <div class="footer__endereco">
+          <h1 class="footer__logo">Mystic</h1>
+              
+          <h2>Contatos</h2>
+          
+          <address>
+            R. Cel. Carlos Matos, 86 - Centro, Nova Iguaçu - RJ, 26210-200<br>
+                
+            <a class="footer__button" href="markinhussantana@gmail.com">Contato via email</a>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Serviços</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Ajuda</a>
+              </li>
+      
+              <li>
+                <a href="fale_conosco.html">Fale conosco</a>
+              </li>
+                  
+              <li>
+                <a href="#">Status do pedido</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Sobre nós</h2>
+            
+            <ul class="nav__ul ">
+              <li>
+                <a href="sobre_nos.html">Informações da marca</a>
+              </li>
+              
+              <li>
+                <a href="#">Carreira</a>
+              </li>
+              
+              <li>
+                <a href="#">Gerenciamento</a>
+              </li>
+              
+              <li>
+                <a href="#">Programa de afiliados</a>
+              </li>
+              
+  
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Pagamento</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Meios de pagamento</a>
+              </li>
+      
+              <li>
+                <a href="#">Cupons de desconto</a>
+              </li>
+                  
+              <li>
+                <a href="#">Cartão de crédito</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li class="nav__item">
+            <h2 class="nav__title">Políticas</h2>
+            
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Políticas de privacidade</a>
+              </li>
+              
+              <li>
+                <a href="#">Termos de uso</a>
+              </li>
+              
+              <li>
+                <a href="#">Política de reembolso</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+        <div class="termos">
+          <p>&copy; Copyright © 2024 Mystic Inc. TODOS OS DIREITOS RESERVADOS.</p>
+          
+          <div class="termos__links">
+            <span>Desenvolvido por <span class="heart">♥</span> Mystic developers group</span>
+          </div>
+        </div>
+  
+        <div class="contacts">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+  
+      </footer>
+      
+   </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
+
+   

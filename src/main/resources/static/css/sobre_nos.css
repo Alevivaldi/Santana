@@ -1,0 +1,45 @@
+@import url(style.css);
+@import url(reset.css);
+
+.about_us *{
+    font-family:  'Nova flat';
+}
+
+.about_us{
+    text-align: center;
+    margin-top: 10px;
+    margin-left:50px;
+}
+
+.about_us_text {
+    color:#000000;
+    text-align: justify;
+    font-size:13px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+   }
+  
+  
+   .about_us_text h1{
+    color:#000000;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size:30px;
+    margin-bottom: 25px;
+   }
+  
+   .about_us_text h3 {
+    color:#000000;
+    text-align: justify;
+    font-size:20px;
+   }
+   
+   .about_us_text p{
+    color:#000000;
+    text-align: justify;
+    font-size:13px;
+    margin-bottom: 4px;
+   }
+  

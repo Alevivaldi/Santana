@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="../css/acessorios.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <title>Mystic</title>
+</head>
+
+<body>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+  <header class="cabecalho">
+
+    <section class="cabecalho-1">
+
+      <figure class="image-box">
+        <a href="index.html"><img class="cabecalho-logo" src="./assets/logo.png" alt="logo do site"></a>
+      </figure>
+
+      <h1 class="cabecalho-titulo">Mystic</h1>
+
+      <!-- Teste Isac, Comentar as Linhas -->
+
+
+
+      <!-- teste barra de pesquisa e carrinho juh -->
+
+      <div class="cart">
+        <a href="pages/login.html"><img src="./assets/login.png" alt="Carrinho de Compras" width="24" height="24"></a>
+        <a href="./pages/carrinho.html"><img src="./assets/carrinho.png" alt="Carrinho de Compras" width="24"
+            height="24"></a>
+      </div>
+    </section>
+
+    <section class="cabecalho-2">
+      <nav class="nav-links">
+        <a class="links" href="">Cosplay</a>
+        <a class="links" href="./pages/acessorios.html">Acessórios</a>
+        <a class="links" href="./pages/masculino.html">Masculino</a>
+        <a class="links" href="./pages/feminino.html">Feminino</a>
+        <a class="links" href="./pages/promocao.html">Promoções</a>
+        <a class="links" href="./pages/cupom.html">Cupom</a>
+        <a class="links" href="">Ajuda</a>
+      </nav>
+    </section>
+
+  </header>
+
+
+  <main class="conteudo">
+
+    <!-- /*Inicio do Carrosel*/ -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/homemaranha.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/wolwerine.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carrosel-img2.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <!-- /*Final do Carrosel*/ -->
+
+    <!-- dropdown inicio -->
+    <section class="dropdown_container">
+      <div class="dropdown_categoria">
+        <button class="btn btn-secondary dropdown-toggle categoria-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Categoria
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Conjuntos (11)</a></li>
+          <li><a class="dropdown-item" href="#">Vestidos (23)</a></li>
+          <li><a class="dropdown-item" href="#">Saias (15)</a></li>
+          <li><a class="dropdown-item" href="#">Body (6)</a></li>
+          <li><a class="dropdown-item" href="#">Kimono (7)</a></li>
+          <li><a class="dropdown-item" href="#">Acessórios (34)</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown_filtrar">
+        <button class="btn btn-secondary dropdown-toggle ordenar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Ordenar
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Novidades</a></li>
+          <li><a class="dropdown-item" href="#">Mais vistos</a></li>
+          <li><a class="dropdown-item" href="#">Maior preço</a></li>
+          <li><a class="dropdown-item" href="#">Menor preço</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- dropdown final -->
+
+    <!-- Inicio dos cards -->
+    <section class="cards-container">
+      <!--Santanna Aqui serao incluidos os produtos  -->
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__endereco">
+      <h1 class="footer__logo">Mystic</h1>
+
+      <h2>Contatos</h2>
+
+      <address>
+        R. Cel. Carlos Matos, 86 - Centro, Nova Iguaçu - RJ, 26210-200<br>
+
+        <a class="footer__button" href="markinhussantana@gmail.com">Contato via email</a>
+      </address>
+    </div>
+
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Serviços</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Ajuda</a>
+          </li>
+
+          <li>
+            <a href="./pages/fale_conosco.html">Fale conosco</a>
+          </li>
+
+          <li>
+            <a href="#">Status do pedido</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Sobre nós</h2>
+
+        <ul class="nav__ul ">
+          <li>
+            <a href="./pages/sobre_nos.html">Informações da marca</a>
+          </li>
+
+          <li>
+            <a href="#">Carreira</a>
+          </li>
+
+          <li>
+            <a href="#">Gerenciamento</a>
+          </li>
+
+          <li>
+            <a href="#">Programa de afiliados</a>
+          </li>
+
+
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Pagamento</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Meios de pagamento</a>
+          </li>
+
+          <li>
+            <a href="./pages/cupom.html">Cupons de desconto</a>
+          </li>
+
+          <li>
+            <a href="#">Cartão de crédito</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Políticas</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Políticas de privacidade</a>
+          </li>
+
+          <li>
+            <a href="#">Termos de uso</a>
+          </li>
+
+          <li>
+            <a href="#">Política de reembolso</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="termos">
+      <p>&copy; Copyright © 2024 Mystic Inc. TODOS OS DIREITOS RESERVADOS.</p>
+
+      <div class="termos__links">
+        <span>Desenvolvido por <span class="heart">♥</span> Mystic developers group</span>
+      </div>
+    </div>
+
+    <div class="contacts">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+
+  </footer>
+
+</body>
+<script src="assets/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+    "nome" : "Marcus",
+    "username" : "markinhussantana@gmail.com",
+    "password": "1234",
+    "dataNascimento" : "2006-03-13",
+    "cpf": "15916182740",
+    "endereco": {
+        "cep" : "26130450",
+        "logradouro" : "Rua Teste",
+        "numero" : "78",
+        "bairro" : "Teste",
+        "cidade" : "Belford Roxo",
+        "uf" : "RJ",
+
+        "complemento": "casa"
+    }
+}

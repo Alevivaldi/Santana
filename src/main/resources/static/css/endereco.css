@@ -1,0 +1,120 @@
+@import url(style.css);
+@import url(reset.css);
+
+.container-center *{
+    font-family: 'Nova flat';
+}
+
+.container-center {
+    width: 500px; 
+    height: 810px; 
+    margin: 50px auto;
+    padding: 15px; 
+    background-color: #061549;
+    box-shadow: 0 3px 10px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.sign-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffffd3;
+    font-size: 14px; 
+    padding: 10px;
+}
+
+input[type="email"], 
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.445);
+    border: 2px solid #500a0a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-bottom: 20px; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: #ffffffda;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(202, 24, 24);
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffffd3;
+}
+
+button a :hover{
+    text-decoration: none;
+    color: #ffffffd3;
+
+}
+
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px; 
+    font-size: 14px;
+    color: #ffffffd3; 
+}
+
+a {
+    color: #ffffffd3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ooi{
+    color: #a34444;
+}
+
+.ooi :hover{
+    color: #ff0000;
+    transition: 0.5s;
+} 
+
+.op{
+    background-color: rgb(5, 5, 43);
+    border: 2px solid #500a0a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #ffffffd3; 
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

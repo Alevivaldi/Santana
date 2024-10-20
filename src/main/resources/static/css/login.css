@@ -1,0 +1,208 @@
+@import url(style.css);
+@import url(reset.css);
+
+.container-center *{
+    font-family: 'Nova flat';
+}
+
+.container-center {
+    width: 370px; 
+    height: 400px; 
+    margin: 50px auto;
+    padding: 15px; 
+    background-color: #061549;
+    box-shadow: 0 3px 10px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.login_title {
+    text-align: center;
+    margin-bottom: 10px; 
+    font-size: 20px;
+    padding-bottom: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffffd3;
+    font-size: 14px; 
+    padding: 10px;
+}
+
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 10px; 
+    background-color: rgba(0, 0, 0, 0.445);
+    border: 2px solid #500a0a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 20px; 
+    color: rgb(255, 255, 255);
+}
+
+
+button {
+    width: 100%;
+    padding: 8px; 
+    background-color: rgba(0, 0, 0, 0.445);
+    color: #ffffffda;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.snackBar {
+    visibility: hidden; 
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #ff0202; 
+    color: #fff; 
+    text-align: center;
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 50%; 
+    bottom: 30px;
+    font-size: 17px; 
+}
+
+.snackBar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s; 
+}
+
+@keyframes fadein {
+    from { bottom: 0; opacity: 0; }
+    to { bottom: 30px; opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+button:hover {
+    background-color: rgb(202, 24, 24);
+    color: white;
+    transition: 0.5s;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px; 
+    font-size: 14px;
+    color: #ffffffd3; 
+}
+
+a {
+    color: #ffffffd3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ooi{
+    color: #a34444;
+}
+
+.ooi :hover{
+    color: #ff0000;
+    transition: 0.5s;
+} 
+
+
+
+/* @import url(style.css);
+@import url(reset.css);
+
+.container-center *{
+    font-family: 'Nova flat';
+}
+
+.container-center {
+    width: 350px; 
+    height: 400px; 
+    margin: 50px auto;
+    padding: 15px; 
+    background-color: #fff;
+    box-shadow: 0 2px 10px #061549;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px; 
+    font-size: 20px;
+    padding-bottom: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #061549;
+    font-size: 14px; 
+    padding: 10px;
+}
+
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 20px; 
+}
+
+button {
+    width: 100%;
+    padding: 8px; 
+    background-color: #061549;
+    color: #e6d8d8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #242d4d;
+    transition: 0.5s;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+a {
+    color: #061549;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}  */

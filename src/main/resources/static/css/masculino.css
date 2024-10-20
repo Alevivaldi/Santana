@@ -1,0 +1,13 @@
+@import url(style.css);
+@import url(reset.css);
+
+.card-text{
+    color: black;
+    margin-right: 50%;
+}
+.titulo_ac{
+    text-align: center;
+    font-size: 40px;
+}
+    
+    

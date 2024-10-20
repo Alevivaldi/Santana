@@ -57,5 +57,6 @@ function finalizePurchase() {
     snackbar.className = 'snackbar show';
     setTimeout(() => {
         snackbar.className = snackbar.className.replace('show', '');
+         window.location.href = '../index.html';
     }, 3000);
 }

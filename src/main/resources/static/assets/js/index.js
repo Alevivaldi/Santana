@@ -26,6 +26,17 @@ document.addEventListener("DOMContentLoaded", function() {
                         </a>
                     </div>
                 `;
+
+
+                const buyButton = card.querySelector('.buy_button');
+                buyButton.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const produtosComprados = JSON.parse(localStorage.getItem('produtosComprados')) || [];
+                    produtosComprados.push(produto);
+                    localStorage.setItem('produtosComprados', JSON.stringify(produtosComprados));
+                    showSnackbar(`${produto.nome} foi adicionado ao carrinho!`);
+                });
+
                 cardsContainer.appendChild(card);
             });
         })
@@ -33,3 +44,13 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error("Erro:", error);
         });
 });
+
+
+function showSnackbar(message) {
+    const snackbar = document.getElementById("snackbar");
+    snackbar.textContent = message;
+    snackbar.className = "show";
+    setTimeout(() => {
+        snackbar.className = snackbar.className.replace("show", "");
+    }, 3000);
+}
